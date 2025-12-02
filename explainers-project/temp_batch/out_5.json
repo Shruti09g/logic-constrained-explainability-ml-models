@@ -1,0 +1,45 @@
+{
+  "prediction": 0,
+  "region": {
+    "workclass": [
+      "eq",
+      "Private"
+    ],
+    "marital-status": [
+      "eq",
+      "Married-civ-spouse"
+    ],
+    "occupation": [
+      "eq",
+      "Prof-specialty"
+    ],
+    "relationship": [
+      "eq",
+      "Husband"
+    ],
+    "sex": [
+      "eq",
+      "Male"
+    ],
+    "age": [
+      31.500000000000004,
+      33.5
+    ],
+    "fnlwgt": [
+      -1000000000.0,
+      43647.0
+    ],
+    "capital-gain": [
+      -1000000000.0,
+      5095.5
+    ],
+    "capital-loss": [
+      -1000000000.0,
+      1782.5
+    ],
+    "hours-per-week": [
+      44.50000000000001,
+      1000000000.0
+    ]
+  }
+}

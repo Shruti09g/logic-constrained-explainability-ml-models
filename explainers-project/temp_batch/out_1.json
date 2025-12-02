@@ -1,0 +1,53 @@
+{
+  "prediction": 1,
+  "region": {
+    "education": [
+      "eq",
+      "Prof-school"
+    ],
+    "education-num": [
+      "eq",
+      "15"
+    ],
+    "marital-status": [
+      "eq",
+      "Married-civ-spouse"
+    ],
+    "occupation": [
+      "eq",
+      "Prof-specialty"
+    ],
+    "relationship": [
+      "eq",
+      "Husband"
+    ],
+    "race": [
+      "eq",
+      "White"
+    ],
+    "sex": [
+      "eq",
+      "Male"
+    ],
+    "age": [
+      35.50000000000001,
+      62.5
+    ],
+    "fnlwgt": [
+      26697.000000000004,
+      839333.5
+    ],
+    "capital-gain": [
+      7073.500000000001,
+      1000000000.0
+    ],
+    "capital-loss": [
+      -1000000000.0,
+      1497.5
+    ],
+    "hours-per-week": [
+      44.50000000000001,
+      1000000000.0
+    ]
+  }
+}

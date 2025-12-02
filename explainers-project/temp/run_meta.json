@@ -1,0 +1,6 @@
+{
+  "instance_index": 0,
+  "n_samples": 500,
+  "n_counterexamples_shap_sampling": 163,
+  "sat_found_shap": true
+}

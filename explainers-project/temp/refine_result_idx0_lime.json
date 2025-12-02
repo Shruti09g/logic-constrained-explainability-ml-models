@@ -1,0 +1,1212 @@
+{
+  "instance_index": 0,
+  "initial_region": {
+    "workclass": [
+      "eq",
+      "Private"
+    ],
+    "education": [
+      "eq",
+      "Some-college"
+    ],
+    "marital-status": [
+      "eq",
+      "Never-married"
+    ],
+    "occupation": [
+      "eq",
+      "Adm-clerical"
+    ],
+    "relationship": [
+      "eq",
+      "Own-child"
+    ],
+    "race": [
+      "eq",
+      "White"
+    ],
+    "sex": [
+      "eq",
+      "Female"
+    ],
+    "age": [
+      25.500000000000004,
+      27.5
+    ],
+    "fnlwgt": [
+      197942.50000000003,
+      1000000000.0
+    ],
+    "capital-gain": [
+      -1000000000.0,
+      4601.5
+    ],
+    "capital-loss": [
+      -1000000000.0,
+      1534.0
+    ],
+    "hours-per-week": [
+      36.50000000000001,
+      41.5
+    ]
+  },
+  "final_region": {
+    "workclass": [
+      "eq",
+      "Private"
+    ],
+    "education": [
+      "eq",
+      "Some-college"
+    ],
+    "marital-status": [
+      "eq",
+      "Never-married"
+    ],
+    "occupation": [
+      "eq",
+      "Adm-clerical"
+    ],
+    "relationship": [
+      "eq",
+      "Own-child"
+    ],
+    "race": [
+      "eq",
+      "White"
+    ],
+    "sex": [
+      "eq",
+      "Female"
+    ],
+    "age": [
+      26.96875,
+      27.03125
+    ],
+    "fnlwgt": [
+      197942.50000000003,
+      1175877.4995117188
+    ],
+    "capital-gain": [
+      -978094.8354492188,
+      4601.5
+    ],
+    "capital-loss": [
+      -977073.333984375,
+      1534.0
+    ],
+    "hours-per-week": [
+      39.921875,
+      40.078125
+    ]
+  },
+  "final_explanation": null,
+  "history": [
+    {
+      "iter": 0,
+      "region": {
+        "workclass": [
+          "eq",
+          "Private"
+        ],
+        "education": [
+          "eq",
+          "Some-college"
+        ],
+        "marital-status": [
+          "eq",
+          "Never-married"
+        ],
+        "occupation": [
+          "eq",
+          "Adm-clerical"
+        ],
+        "relationship": [
+          "eq",
+          "Own-child"
+        ],
+        "race": [
+          "eq",
+          "White"
+        ],
+        "sex": [
+          "eq",
+          "Female"
+        ],
+        "age": [
+          25.500000000000004,
+          27.5
+        ],
+        "fnlwgt": [
+          197942.50000000003,
+          1000000000.0
+        ],
+        "capital-gain": [
+          -1000000000.0,
+          4601.5
+        ],
+        "capital-loss": [
+          -1000000000.0,
+          1534.0
+        ],
+        "hours-per-week": [
+          36.50000000000001,
+          41.5
+        ]
+      },
+      "explanation": {
+        "kind": "constrained_lime",
+        "top_features": [
+          [
+            "remainder__age",
+            -4.713493619160653e-13
+          ],
+          [
+            "remainder__hours-per-week",
+            -9.405469043521825e-14
+          ],
+          [
+            "remainder__fnlwgt",
+            -4.530629976457176e-14
+          ],
+          [
+            "remainder__capital-gain",
+            -9.768356846436567e-15
+          ],
+          [
+            "remainder__capital-loss",
+            3.363580498438334e-15
+          ],
+          [
+            "ohe__workclass_Federal-gov",
+            0.0
+          ],
+          [
+            "ohe__workclass_Local-gov",
+            0.0
+          ],
+          [
+            "ohe__workclass_Private",
+            0.0
+          ],
+          [
+            "ohe__workclass_Self-emp-inc",
+            0.0
+          ],
+          [
+            "ohe__workclass_Self-emp-not-inc",
+            0.0
+          ]
+        ],
+        "coeffs": {
+          "ohe__workclass_Federal-gov": 0.0,
+          "ohe__workclass_Local-gov": 0.0,
+          "ohe__workclass_Private": 0.0,
+          "ohe__workclass_Self-emp-inc": 0.0,
+          "ohe__workclass_Self-emp-not-inc": 0.0,
+          "ohe__workclass_State-gov": 0.0,
+          "ohe__workclass_Without-pay": 0.0,
+          "ohe__education_10th": 0.0,
+          "ohe__education_11th": 0.0,
+          "ohe__education_12th": 0.0,
+          "ohe__education_1st-4th": 0.0,
+          "ohe__education_5th-6th": 0.0,
+          "ohe__education_7th-8th": 0.0,
+          "ohe__education_9th": 0.0,
+          "ohe__education_Assoc-acdm": 0.0,
+          "ohe__education_Assoc-voc": 0.0,
+          "ohe__education_Bachelors": 0.0,
+          "ohe__education_Doctorate": 0.0,
+          "ohe__education_HS-grad": 0.0,
+          "ohe__education_Masters": 0.0,
+          "ohe__education_Preschool": 0.0,
+          "ohe__education_Prof-school": 0.0,
+          "ohe__education_Some-college": 0.0,
+          "ohe__education-num_1": 0.0,
+          "ohe__education-num_2": 0.0,
+          "ohe__education-num_3": 0.0,
+          "ohe__education-num_4": 0.0,
+          "ohe__education-num_5": 0.0,
+          "ohe__education-num_6": 0.0,
+          "ohe__education-num_7": 0.0,
+          "ohe__education-num_8": 0.0,
+          "ohe__education-num_9": 0.0,
+          "ohe__education-num_10": 0.0,
+          "ohe__education-num_11": 0.0,
+          "ohe__education-num_12": 0.0,
+          "ohe__education-num_13": 0.0,
+          "ohe__education-num_14": 0.0,
+          "ohe__education-num_15": 0.0,
+          "ohe__education-num_16": 0.0,
+          "ohe__marital-status_Divorced": 0.0,
+          "ohe__marital-status_Married-AF-spouse": 0.0,
+          "ohe__marital-status_Married-civ-spouse": 0.0,
+          "ohe__marital-status_Married-spouse-absent": 0.0,
+          "ohe__marital-status_Never-married": 0.0,
+          "ohe__marital-status_Separated": 0.0,
+          "ohe__marital-status_Widowed": 0.0,
+          "ohe__occupation_Adm-clerical": 0.0,
+          "ohe__occupation_Armed-Forces": 0.0,
+          "ohe__occupation_Craft-repair": 0.0,
+          "ohe__occupation_Exec-managerial": 0.0,
+          "ohe__occupation_Farming-fishing": 0.0,
+          "ohe__occupation_Handlers-cleaners": 0.0,
+          "ohe__occupation_Machine-op-inspct": 0.0,
+          "ohe__occupation_Other-service": 0.0,
+          "ohe__occupation_Priv-house-serv": 0.0,
+          "ohe__occupation_Prof-specialty": 0.0,
+          "ohe__occupation_Protective-serv": 0.0,
+          "ohe__occupation_Sales": 0.0,
+          "ohe__occupation_Tech-support": 0.0,
+          "ohe__occupation_Transport-moving": 0.0,
+          "ohe__relationship_Husband": 0.0,
+          "ohe__relationship_Not-in-family": 0.0,
+          "ohe__relationship_Other-relative": 0.0,
+          "ohe__relationship_Own-child": 0.0,
+          "ohe__relationship_Unmarried": 0.0,
+          "ohe__relationship_Wife": 0.0,
+          "ohe__race_Amer-Indian-Eskimo": 0.0,
+          "ohe__race_Asian-Pac-Islander": 0.0,
+          "ohe__race_Black": 0.0,
+          "ohe__race_Other": 0.0,
+          "ohe__race_White": 0.0,
+          "ohe__sex_Female": 0.0,
+          "ohe__sex_Male": 0.0,
+          "ohe__native-country_Cambodia": 0.0,
+          "ohe__native-country_Canada": 0.0,
+          "ohe__native-country_China": 0.0,
+          "ohe__native-country_Columbia": 0.0,
+          "ohe__native-country_Cuba": 0.0,
+          "ohe__native-country_Dominican-Republic": 0.0,
+          "ohe__native-country_Ecuador": 0.0,
+          "ohe__native-country_El-Salvador": 0.0,
+          "ohe__native-country_England": 0.0,
+          "ohe__native-country_France": 0.0,
+          "ohe__native-country_Germany": 0.0,
+          "ohe__native-country_Greece": 0.0,
+          "ohe__native-country_Guatemala": 0.0,
+          "ohe__native-country_Haiti": 0.0,
+          "ohe__native-country_Holand-Netherlands": 0.0,
+          "ohe__native-country_Honduras": 0.0,
+          "ohe__native-country_Hong": 0.0,
+          "ohe__native-country_Hungary": 0.0,
+          "ohe__native-country_India": 0.0,
+          "ohe__native-country_Iran": 0.0,
+          "ohe__native-country_Ireland": 0.0,
+          "ohe__native-country_Italy": 0.0,
+          "ohe__native-country_Jamaica": 0.0,
+          "ohe__native-country_Japan": 0.0,
+          "ohe__native-country_Laos": 0.0,
+          "ohe__native-country_Mexico": 0.0,
+          "ohe__native-country_Nicaragua": 0.0,
+          "ohe__native-country_Outlying-US(Guam-USVI-etc)": 0.0,
+          "ohe__native-country_Peru": 0.0,
+          "ohe__native-country_Philippines": 0.0,
+          "ohe__native-country_Poland": 0.0,
+          "ohe__native-country_Portugal": 0.0,
+          "ohe__native-country_Puerto-Rico": 0.0,
+          "ohe__native-country_Scotland": 0.0,
+          "ohe__native-country_South": 0.0,
+          "ohe__native-country_Taiwan": 0.0,
+          "ohe__native-country_Thailand": 0.0,
+          "ohe__native-country_Trinadad&Tobago": 0.0,
+          "ohe__native-country_United-States": 0.0,
+          "ohe__native-country_Vietnam": 0.0,
+          "ohe__native-country_Yugoslavia": 0.0,
+          "remainder__age": -4.713493619160653e-13,
+          "remainder__fnlwgt": -4.530629976457176e-14,
+          "remainder__capital-gain": -9.768356846436567e-15,
+          "remainder__capital-loss": 3.363580498438334e-15,
+          "remainder__hours-per-week": -9.405469043521825e-14
+        },
+        "r2": -691270.3019476096,
+        "n_samples": 500
+      }
+    },
+    {
+      "iter": 1,
+      "region": {
+        "workclass": [
+          "eq",
+          "Private"
+        ],
+        "education": [
+          "eq",
+          "Some-college"
+        ],
+        "marital-status": [
+          "eq",
+          "Never-married"
+        ],
+        "occupation": [
+          "eq",
+          "Adm-clerical"
+        ],
+        "relationship": [
+          "eq",
+          "Own-child"
+        ],
+        "race": [
+          "eq",
+          "White"
+        ],
+        "sex": [
+          "eq",
+          "Female"
+        ],
+        "age": [
+          26.5,
+          27.5
+        ],
+        "fnlwgt": [
+          197942.50000000003,
+          250149632.375
+        ],
+        "capital-gain": [
+          -250001150.375,
+          4601.5
+        ],
+        "capital-loss": [
+          -250000383.5,
+          1534.0
+        ],
+        "hours-per-week": [
+          38.75,
+          41.25
+        ]
+      },
+      "explanation": {
+        "kind": "constrained_lime",
+        "top_features": [
+          [
+            "remainder__age",
+            -5.175314447158512e-13
+          ],
+          [
+            "remainder__hours-per-week",
+            -5.912975116812393e-14
+          ],
+          [
+            "remainder__capital-loss",
+            3.375355483859612e-14
+          ],
+          [
+            "remainder__capital-gain",
+            -7.34149430702759e-15
+          ],
+          [
+            "remainder__fnlwgt",
+            3.684380439108794e-15
+          ],
+          [
+            "ohe__workclass_Federal-gov",
+            0.0
+          ],
+          [
+            "ohe__workclass_Local-gov",
+            0.0
+          ],
+          [
+            "ohe__workclass_Private",
+            0.0
+          ],
+          [
+            "ohe__workclass_Self-emp-inc",
+            0.0
+          ],
+          [
+            "ohe__workclass_Self-emp-not-inc",
+            0.0
+          ]
+        ],
+        "coeffs": {
+          "ohe__workclass_Federal-gov": 0.0,
+          "ohe__workclass_Local-gov": 0.0,
+          "ohe__workclass_Private": 0.0,
+          "ohe__workclass_Self-emp-inc": 0.0,
+          "ohe__workclass_Self-emp-not-inc": 0.0,
+          "ohe__workclass_State-gov": 0.0,
+          "ohe__workclass_Without-pay": 0.0,
+          "ohe__education_10th": 0.0,
+          "ohe__education_11th": 0.0,
+          "ohe__education_12th": 0.0,
+          "ohe__education_1st-4th": 0.0,
+          "ohe__education_5th-6th": 0.0,
+          "ohe__education_7th-8th": 0.0,
+          "ohe__education_9th": 0.0,
+          "ohe__education_Assoc-acdm": 0.0,
+          "ohe__education_Assoc-voc": 0.0,
+          "ohe__education_Bachelors": 0.0,
+          "ohe__education_Doctorate": 0.0,
+          "ohe__education_HS-grad": 0.0,
+          "ohe__education_Masters": 0.0,
+          "ohe__education_Preschool": 0.0,
+          "ohe__education_Prof-school": 0.0,
+          "ohe__education_Some-college": 0.0,
+          "ohe__education-num_1": 0.0,
+          "ohe__education-num_2": 0.0,
+          "ohe__education-num_3": 0.0,
+          "ohe__education-num_4": 0.0,
+          "ohe__education-num_5": 0.0,
+          "ohe__education-num_6": 0.0,
+          "ohe__education-num_7": 0.0,
+          "ohe__education-num_8": 0.0,
+          "ohe__education-num_9": 0.0,
+          "ohe__education-num_10": 0.0,
+          "ohe__education-num_11": 0.0,
+          "ohe__education-num_12": 0.0,
+          "ohe__education-num_13": 0.0,
+          "ohe__education-num_14": 0.0,
+          "ohe__education-num_15": 0.0,
+          "ohe__education-num_16": 0.0,
+          "ohe__marital-status_Divorced": 0.0,
+          "ohe__marital-status_Married-AF-spouse": 0.0,
+          "ohe__marital-status_Married-civ-spouse": 0.0,
+          "ohe__marital-status_Married-spouse-absent": 0.0,
+          "ohe__marital-status_Never-married": 0.0,
+          "ohe__marital-status_Separated": 0.0,
+          "ohe__marital-status_Widowed": 0.0,
+          "ohe__occupation_Adm-clerical": 0.0,
+          "ohe__occupation_Armed-Forces": 0.0,
+          "ohe__occupation_Craft-repair": 0.0,
+          "ohe__occupation_Exec-managerial": 0.0,
+          "ohe__occupation_Farming-fishing": 0.0,
+          "ohe__occupation_Handlers-cleaners": 0.0,
+          "ohe__occupation_Machine-op-inspct": 0.0,
+          "ohe__occupation_Other-service": 0.0,
+          "ohe__occupation_Priv-house-serv": 0.0,
+          "ohe__occupation_Prof-specialty": 0.0,
+          "ohe__occupation_Protective-serv": 0.0,
+          "ohe__occupation_Sales": 0.0,
+          "ohe__occupation_Tech-support": 0.0,
+          "ohe__occupation_Transport-moving": 0.0,
+          "ohe__relationship_Husband": 0.0,
+          "ohe__relationship_Not-in-family": 0.0,
+          "ohe__relationship_Other-relative": 0.0,
+          "ohe__relationship_Own-child": 0.0,
+          "ohe__relationship_Unmarried": 0.0,
+          "ohe__relationship_Wife": 0.0,
+          "ohe__race_Amer-Indian-Eskimo": 0.0,
+          "ohe__race_Asian-Pac-Islander": 0.0,
+          "ohe__race_Black": 0.0,
+          "ohe__race_Other": 0.0,
+          "ohe__race_White": 0.0,
+          "ohe__sex_Female": 0.0,
+          "ohe__sex_Male": 0.0,
+          "ohe__native-country_Cambodia": 0.0,
+          "ohe__native-country_Canada": 0.0,
+          "ohe__native-country_China": 0.0,
+          "ohe__native-country_Columbia": 0.0,
+          "ohe__native-country_Cuba": 0.0,
+          "ohe__native-country_Dominican-Republic": 0.0,
+          "ohe__native-country_Ecuador": 0.0,
+          "ohe__native-country_El-Salvador": 0.0,
+          "ohe__native-country_England": 0.0,
+          "ohe__native-country_France": 0.0,
+          "ohe__native-country_Germany": 0.0,
+          "ohe__native-country_Greece": 0.0,
+          "ohe__native-country_Guatemala": 0.0,
+          "ohe__native-country_Haiti": 0.0,
+          "ohe__native-country_Holand-Netherlands": 0.0,
+          "ohe__native-country_Honduras": 0.0,
+          "ohe__native-country_Hong": 0.0,
+          "ohe__native-country_Hungary": 0.0,
+          "ohe__native-country_India": 0.0,
+          "ohe__native-country_Iran": 0.0,
+          "ohe__native-country_Ireland": 0.0,
+          "ohe__native-country_Italy": 0.0,
+          "ohe__native-country_Jamaica": 0.0,
+          "ohe__native-country_Japan": 0.0,
+          "ohe__native-country_Laos": 0.0,
+          "ohe__native-country_Mexico": 0.0,
+          "ohe__native-country_Nicaragua": 0.0,
+          "ohe__native-country_Outlying-US(Guam-USVI-etc)": 0.0,
+          "ohe__native-country_Peru": 0.0,
+          "ohe__native-country_Philippines": 0.0,
+          "ohe__native-country_Poland": 0.0,
+          "ohe__native-country_Portugal": 0.0,
+          "ohe__native-country_Puerto-Rico": 0.0,
+          "ohe__native-country_Scotland": 0.0,
+          "ohe__native-country_South": 0.0,
+          "ohe__native-country_Taiwan": 0.0,
+          "ohe__native-country_Thailand": 0.0,
+          "ohe__native-country_Trinadad&Tobago": 0.0,
+          "ohe__native-country_United-States": 0.0,
+          "ohe__native-country_Vietnam": 0.0,
+          "ohe__native-country_Yugoslavia": 0.0,
+          "remainder__age": -5.175314447158512e-13,
+          "remainder__fnlwgt": 3.684380439108794e-15,
+          "remainder__capital-gain": -7.34149430702759e-15,
+          "remainder__capital-loss": 3.375355483859612e-14,
+          "remainder__hours-per-week": -5.912975116812393e-14
+        },
+        "r2": -656932.9401350534,
+        "n_samples": 500
+      }
+    },
+    {
+      "iter": 2,
+      "region": {
+        "workclass": [
+          "eq",
+          "Private"
+        ],
+        "education": [
+          "eq",
+          "Some-college"
+        ],
+        "marital-status": [
+          "eq",
+          "Never-married"
+        ],
+        "occupation": [
+          "eq",
+          "Adm-clerical"
+        ],
+        "relationship": [
+          "eq",
+          "Own-child"
+        ],
+        "race": [
+          "eq",
+          "White"
+        ],
+        "sex": [
+          "eq",
+          "Female"
+        ],
+        "age": [
+          26.75,
+          27.25
+        ],
+        "fnlwgt": [
+          197942.50000000003,
+          62687040.46875
+        ],
+        "capital-gain": [
+          -62501437.96875,
+          4601.5
+        ],
+        "capital-loss": [
+          -62500479.375,
+          1534.0
+        ],
+        "hours-per-week": [
+          39.375,
+          40.625
+        ]
+      },
+      "explanation": {
+        "kind": "constrained_lime",
+        "top_features": [
+          [
+            "remainder__age",
+            -5.253873980477667e-13
+          ],
+          [
+            "remainder__hours-per-week",
+            2.990900062296646e-14
+          ],
+          [
+            "remainder__capital-gain",
+            2.89061971377267e-14
+          ],
+          [
+            "remainder__capital-loss",
+            1.5901473495735778e-14
+          ],
+          [
+            "remainder__fnlwgt",
+            1.4412903867007546e-14
+          ],
+          [
+            "ohe__workclass_Federal-gov",
+            0.0
+          ],
+          [
+            "ohe__workclass_Local-gov",
+            0.0
+          ],
+          [
+            "ohe__workclass_Private",
+            0.0
+          ],
+          [
+            "ohe__workclass_Self-emp-inc",
+            0.0
+          ],
+          [
+            "ohe__workclass_Self-emp-not-inc",
+            0.0
+          ]
+        ],
+        "coeffs": {
+          "ohe__workclass_Federal-gov": 0.0,
+          "ohe__workclass_Local-gov": 0.0,
+          "ohe__workclass_Private": 0.0,
+          "ohe__workclass_Self-emp-inc": 0.0,
+          "ohe__workclass_Self-emp-not-inc": 0.0,
+          "ohe__workclass_State-gov": 0.0,
+          "ohe__workclass_Without-pay": 0.0,
+          "ohe__education_10th": 0.0,
+          "ohe__education_11th": 0.0,
+          "ohe__education_12th": 0.0,
+          "ohe__education_1st-4th": 0.0,
+          "ohe__education_5th-6th": 0.0,
+          "ohe__education_7th-8th": 0.0,
+          "ohe__education_9th": 0.0,
+          "ohe__education_Assoc-acdm": 0.0,
+          "ohe__education_Assoc-voc": 0.0,
+          "ohe__education_Bachelors": 0.0,
+          "ohe__education_Doctorate": 0.0,
+          "ohe__education_HS-grad": 0.0,
+          "ohe__education_Masters": 0.0,
+          "ohe__education_Preschool": 0.0,
+          "ohe__education_Prof-school": 0.0,
+          "ohe__education_Some-college": 0.0,
+          "ohe__education-num_1": 0.0,
+          "ohe__education-num_2": 0.0,
+          "ohe__education-num_3": 0.0,
+          "ohe__education-num_4": 0.0,
+          "ohe__education-num_5": 0.0,
+          "ohe__education-num_6": 0.0,
+          "ohe__education-num_7": 0.0,
+          "ohe__education-num_8": 0.0,
+          "ohe__education-num_9": 0.0,
+          "ohe__education-num_10": 0.0,
+          "ohe__education-num_11": 0.0,
+          "ohe__education-num_12": 0.0,
+          "ohe__education-num_13": 0.0,
+          "ohe__education-num_14": 0.0,
+          "ohe__education-num_15": 0.0,
+          "ohe__education-num_16": 0.0,
+          "ohe__marital-status_Divorced": 0.0,
+          "ohe__marital-status_Married-AF-spouse": 0.0,
+          "ohe__marital-status_Married-civ-spouse": 0.0,
+          "ohe__marital-status_Married-spouse-absent": 0.0,
+          "ohe__marital-status_Never-married": 0.0,
+          "ohe__marital-status_Separated": 0.0,
+          "ohe__marital-status_Widowed": 0.0,
+          "ohe__occupation_Adm-clerical": 0.0,
+          "ohe__occupation_Armed-Forces": 0.0,
+          "ohe__occupation_Craft-repair": 0.0,
+          "ohe__occupation_Exec-managerial": 0.0,
+          "ohe__occupation_Farming-fishing": 0.0,
+          "ohe__occupation_Handlers-cleaners": 0.0,
+          "ohe__occupation_Machine-op-inspct": 0.0,
+          "ohe__occupation_Other-service": 0.0,
+          "ohe__occupation_Priv-house-serv": 0.0,
+          "ohe__occupation_Prof-specialty": 0.0,
+          "ohe__occupation_Protective-serv": 0.0,
+          "ohe__occupation_Sales": 0.0,
+          "ohe__occupation_Tech-support": 0.0,
+          "ohe__occupation_Transport-moving": 0.0,
+          "ohe__relationship_Husband": 0.0,
+          "ohe__relationship_Not-in-family": 0.0,
+          "ohe__relationship_Other-relative": 0.0,
+          "ohe__relationship_Own-child": 0.0,
+          "ohe__relationship_Unmarried": 0.0,
+          "ohe__relationship_Wife": 0.0,
+          "ohe__race_Amer-Indian-Eskimo": 0.0,
+          "ohe__race_Asian-Pac-Islander": 0.0,
+          "ohe__race_Black": 0.0,
+          "ohe__race_Other": 0.0,
+          "ohe__race_White": 0.0,
+          "ohe__sex_Female": 0.0,
+          "ohe__sex_Male": 0.0,
+          "ohe__native-country_Cambodia": 0.0,
+          "ohe__native-country_Canada": 0.0,
+          "ohe__native-country_China": 0.0,
+          "ohe__native-country_Columbia": 0.0,
+          "ohe__native-country_Cuba": 0.0,
+          "ohe__native-country_Dominican-Republic": 0.0,
+          "ohe__native-country_Ecuador": 0.0,
+          "ohe__native-country_El-Salvador": 0.0,
+          "ohe__native-country_England": 0.0,
+          "ohe__native-country_France": 0.0,
+          "ohe__native-country_Germany": 0.0,
+          "ohe__native-country_Greece": 0.0,
+          "ohe__native-country_Guatemala": 0.0,
+          "ohe__native-country_Haiti": 0.0,
+          "ohe__native-country_Holand-Netherlands": 0.0,
+          "ohe__native-country_Honduras": 0.0,
+          "ohe__native-country_Hong": 0.0,
+          "ohe__native-country_Hungary": 0.0,
+          "ohe__native-country_India": 0.0,
+          "ohe__native-country_Iran": 0.0,
+          "ohe__native-country_Ireland": 0.0,
+          "ohe__native-country_Italy": 0.0,
+          "ohe__native-country_Jamaica": 0.0,
+          "ohe__native-country_Japan": 0.0,
+          "ohe__native-country_Laos": 0.0,
+          "ohe__native-country_Mexico": 0.0,
+          "ohe__native-country_Nicaragua": 0.0,
+          "ohe__native-country_Outlying-US(Guam-USVI-etc)": 0.0,
+          "ohe__native-country_Peru": 0.0,
+          "ohe__native-country_Philippines": 0.0,
+          "ohe__native-country_Poland": 0.0,
+          "ohe__native-country_Portugal": 0.0,
+          "ohe__native-country_Puerto-Rico": 0.0,
+          "ohe__native-country_Scotland": 0.0,
+          "ohe__native-country_South": 0.0,
+          "ohe__native-country_Taiwan": 0.0,
+          "ohe__native-country_Thailand": 0.0,
+          "ohe__native-country_Trinadad&Tobago": 0.0,
+          "ohe__native-country_United-States": 0.0,
+          "ohe__native-country_Vietnam": 0.0,
+          "ohe__native-country_Yugoslavia": 0.0,
+          "remainder__age": -5.253873980477667e-13,
+          "remainder__fnlwgt": 1.4412903867007546e-14,
+          "remainder__capital-gain": 2.89061971377267e-14,
+          "remainder__capital-loss": 1.5901473495735778e-14,
+          "remainder__hours-per-week": 2.990900062296646e-14
+        },
+        "r2": -654069.92655373,
+        "n_samples": 500
+      }
+    },
+    {
+      "iter": 3,
+      "region": {
+        "workclass": [
+          "eq",
+          "Private"
+        ],
+        "education": [
+          "eq",
+          "Some-college"
+        ],
+        "marital-status": [
+          "eq",
+          "Never-married"
+        ],
+        "occupation": [
+          "eq",
+          "Adm-clerical"
+        ],
+        "relationship": [
+          "eq",
+          "Own-child"
+        ],
+        "race": [
+          "eq",
+          "White"
+        ],
+        "sex": [
+          "eq",
+          "Female"
+        ],
+        "age": [
+          26.875,
+          27.125
+        ],
+        "fnlwgt": [
+          197942.50000000003,
+          15821392.4921875
+        ],
+        "capital-gain": [
+          -15626509.8671875,
+          4601.5
+        ],
+        "capital-loss": [
+          -15625503.34375,
+          1534.0
+        ],
+        "hours-per-week": [
+          39.6875,
+          40.3125
+        ]
+      },
+      "explanation": {
+        "kind": "constrained_lime",
+        "top_features": [
+          [
+            "remainder__age",
+            -5.276459738988056e-13
+          ],
+          [
+            "remainder__capital-loss",
+            6.329149886108936e-14
+          ],
+          [
+            "remainder__fnlwgt",
+            -3.838249072816662e-14
+          ],
+          [
+            "remainder__hours-per-week",
+            1.4727734138710962e-14
+          ],
+          [
+            "remainder__capital-gain",
+            -9.056419988777694e-15
+          ],
+          [
+            "ohe__workclass_Federal-gov",
+            0.0
+          ],
+          [
+            "ohe__workclass_Local-gov",
+            0.0
+          ],
+          [
+            "ohe__workclass_Private",
+            0.0
+          ],
+          [
+            "ohe__workclass_Self-emp-inc",
+            0.0
+          ],
+          [
+            "ohe__workclass_Self-emp-not-inc",
+            0.0
+          ]
+        ],
+        "coeffs": {
+          "ohe__workclass_Federal-gov": 0.0,
+          "ohe__workclass_Local-gov": 0.0,
+          "ohe__workclass_Private": 0.0,
+          "ohe__workclass_Self-emp-inc": 0.0,
+          "ohe__workclass_Self-emp-not-inc": 0.0,
+          "ohe__workclass_State-gov": 0.0,
+          "ohe__workclass_Without-pay": 0.0,
+          "ohe__education_10th": 0.0,
+          "ohe__education_11th": 0.0,
+          "ohe__education_12th": 0.0,
+          "ohe__education_1st-4th": 0.0,
+          "ohe__education_5th-6th": 0.0,
+          "ohe__education_7th-8th": 0.0,
+          "ohe__education_9th": 0.0,
+          "ohe__education_Assoc-acdm": 0.0,
+          "ohe__education_Assoc-voc": 0.0,
+          "ohe__education_Bachelors": 0.0,
+          "ohe__education_Doctorate": 0.0,
+          "ohe__education_HS-grad": 0.0,
+          "ohe__education_Masters": 0.0,
+          "ohe__education_Preschool": 0.0,
+          "ohe__education_Prof-school": 0.0,
+          "ohe__education_Some-college": 0.0,
+          "ohe__education-num_1": 0.0,
+          "ohe__education-num_2": 0.0,
+          "ohe__education-num_3": 0.0,
+          "ohe__education-num_4": 0.0,
+          "ohe__education-num_5": 0.0,
+          "ohe__education-num_6": 0.0,
+          "ohe__education-num_7": 0.0,
+          "ohe__education-num_8": 0.0,
+          "ohe__education-num_9": 0.0,
+          "ohe__education-num_10": 0.0,
+          "ohe__education-num_11": 0.0,
+          "ohe__education-num_12": 0.0,
+          "ohe__education-num_13": 0.0,
+          "ohe__education-num_14": 0.0,
+          "ohe__education-num_15": 0.0,
+          "ohe__education-num_16": 0.0,
+          "ohe__marital-status_Divorced": 0.0,
+          "ohe__marital-status_Married-AF-spouse": 0.0,
+          "ohe__marital-status_Married-civ-spouse": 0.0,
+          "ohe__marital-status_Married-spouse-absent": 0.0,
+          "ohe__marital-status_Never-married": 0.0,
+          "ohe__marital-status_Separated": 0.0,
+          "ohe__marital-status_Widowed": 0.0,
+          "ohe__occupation_Adm-clerical": 0.0,
+          "ohe__occupation_Armed-Forces": 0.0,
+          "ohe__occupation_Craft-repair": 0.0,
+          "ohe__occupation_Exec-managerial": 0.0,
+          "ohe__occupation_Farming-fishing": 0.0,
+          "ohe__occupation_Handlers-cleaners": 0.0,
+          "ohe__occupation_Machine-op-inspct": 0.0,
+          "ohe__occupation_Other-service": 0.0,
+          "ohe__occupation_Priv-house-serv": 0.0,
+          "ohe__occupation_Prof-specialty": 0.0,
+          "ohe__occupation_Protective-serv": 0.0,
+          "ohe__occupation_Sales": 0.0,
+          "ohe__occupation_Tech-support": 0.0,
+          "ohe__occupation_Transport-moving": 0.0,
+          "ohe__relationship_Husband": 0.0,
+          "ohe__relationship_Not-in-family": 0.0,
+          "ohe__relationship_Other-relative": 0.0,
+          "ohe__relationship_Own-child": 0.0,
+          "ohe__relationship_Unmarried": 0.0,
+          "ohe__relationship_Wife": 0.0,
+          "ohe__race_Amer-Indian-Eskimo": 0.0,
+          "ohe__race_Asian-Pac-Islander": 0.0,
+          "ohe__race_Black": 0.0,
+          "ohe__race_Other": 0.0,
+          "ohe__race_White": 0.0,
+          "ohe__sex_Female": 0.0,
+          "ohe__sex_Male": 0.0,
+          "ohe__native-country_Cambodia": 0.0,
+          "ohe__native-country_Canada": 0.0,
+          "ohe__native-country_China": 0.0,
+          "ohe__native-country_Columbia": 0.0,
+          "ohe__native-country_Cuba": 0.0,
+          "ohe__native-country_Dominican-Republic": 0.0,
+          "ohe__native-country_Ecuador": 0.0,
+          "ohe__native-country_El-Salvador": 0.0,
+          "ohe__native-country_England": 0.0,
+          "ohe__native-country_France": 0.0,
+          "ohe__native-country_Germany": 0.0,
+          "ohe__native-country_Greece": 0.0,
+          "ohe__native-country_Guatemala": 0.0,
+          "ohe__native-country_Haiti": 0.0,
+          "ohe__native-country_Holand-Netherlands": 0.0,
+          "ohe__native-country_Honduras": 0.0,
+          "ohe__native-country_Hong": 0.0,
+          "ohe__native-country_Hungary": 0.0,
+          "ohe__native-country_India": 0.0,
+          "ohe__native-country_Iran": 0.0,
+          "ohe__native-country_Ireland": 0.0,
+          "ohe__native-country_Italy": 0.0,
+          "ohe__native-country_Jamaica": 0.0,
+          "ohe__native-country_Japan": 0.0,
+          "ohe__native-country_Laos": 0.0,
+          "ohe__native-country_Mexico": 0.0,
+          "ohe__native-country_Nicaragua": 0.0,
+          "ohe__native-country_Outlying-US(Guam-USVI-etc)": 0.0,
+          "ohe__native-country_Peru": 0.0,
+          "ohe__native-country_Philippines": 0.0,
+          "ohe__native-country_Poland": 0.0,
+          "ohe__native-country_Portugal": 0.0,
+          "ohe__native-country_Puerto-Rico": 0.0,
+          "ohe__native-country_Scotland": 0.0,
+          "ohe__native-country_South": 0.0,
+          "ohe__native-country_Taiwan": 0.0,
+          "ohe__native-country_Thailand": 0.0,
+          "ohe__native-country_Trinadad&Tobago": 0.0,
+          "ohe__native-country_United-States": 0.0,
+          "ohe__native-country_Vietnam": 0.0,
+          "ohe__native-country_Yugoslavia": 0.0,
+          "remainder__age": -5.276459738988056e-13,
+          "remainder__fnlwgt": -3.838249072816662e-14,
+          "remainder__capital-gain": -9.056419988777694e-15,
+          "remainder__capital-loss": 6.329149886108936e-14,
+          "remainder__hours-per-week": 1.4727734138710962e-14
+        },
+        "r2": -650335.9908009649,
+        "n_samples": 500
+      }
+    },
+    {
+      "iter": 4,
+      "region": {
+        "workclass": [
+          "eq",
+          "Private"
+        ],
+        "education": [
+          "eq",
+          "Some-college"
+        ],
+        "marital-status": [
+          "eq",
+          "Never-married"
+        ],
+        "occupation": [
+          "eq",
+          "Adm-clerical"
+        ],
+        "relationship": [
+          "eq",
+          "Own-child"
+        ],
+        "race": [
+          "eq",
+          "White"
+        ],
+        "sex": [
+          "eq",
+          "Female"
+        ],
+        "age": [
+          26.9375,
+          27.0625
+        ],
+        "fnlwgt": [
+          197942.50000000003,
+          4104980.498046875
+        ],
+        "capital-gain": [
+          -3907777.841796875,
+          4601.5
+        ],
+        "capital-loss": [
+          -3906759.3359375,
+          1534.0
+        ],
+        "hours-per-week": [
+          39.84375,
+          40.15625
+        ]
+      },
+      "explanation": {
+        "kind": "constrained_lime",
+        "top_features": [
+          [
+            "remainder__age",
+            -5.133739575258666e-13
+          ],
+          [
+            "remainder__hours-per-week",
+            1.755561931521906e-14
+          ],
+          [
+            "remainder__capital-gain",
+            1.5740404162621338e-14
+          ],
+          [
+            "remainder__capital-loss",
+            -1.1439507195573418e-14
+          ],
+          [
+            "remainder__fnlwgt",
+            -1.6011785437708623e-16
+          ],
+          [
+            "ohe__workclass_Federal-gov",
+            0.0
+          ],
+          [
+            "ohe__workclass_Local-gov",
+            0.0
+          ],
+          [
+            "ohe__workclass_Private",
+            0.0
+          ],
+          [
+            "ohe__workclass_Self-emp-inc",
+            0.0
+          ],
+          [
+            "ohe__workclass_Self-emp-not-inc",
+            0.0
+          ]
+        ],
+        "coeffs": {
+          "ohe__workclass_Federal-gov": 0.0,
+          "ohe__workclass_Local-gov": 0.0,
+          "ohe__workclass_Private": 0.0,
+          "ohe__workclass_Self-emp-inc": 0.0,
+          "ohe__workclass_Self-emp-not-inc": 0.0,
+          "ohe__workclass_State-gov": 0.0,
+          "ohe__workclass_Without-pay": 0.0,
+          "ohe__education_10th": 0.0,
+          "ohe__education_11th": 0.0,
+          "ohe__education_12th": 0.0,
+          "ohe__education_1st-4th": 0.0,
+          "ohe__education_5th-6th": 0.0,
+          "ohe__education_7th-8th": 0.0,
+          "ohe__education_9th": 0.0,
+          "ohe__education_Assoc-acdm": 0.0,
+          "ohe__education_Assoc-voc": 0.0,
+          "ohe__education_Bachelors": 0.0,
+          "ohe__education_Doctorate": 0.0,
+          "ohe__education_HS-grad": 0.0,
+          "ohe__education_Masters": 0.0,
+          "ohe__education_Preschool": 0.0,
+          "ohe__education_Prof-school": 0.0,
+          "ohe__education_Some-college": 0.0,
+          "ohe__education-num_1": 0.0,
+          "ohe__education-num_2": 0.0,
+          "ohe__education-num_3": 0.0,
+          "ohe__education-num_4": 0.0,
+          "ohe__education-num_5": 0.0,
+          "ohe__education-num_6": 0.0,
+          "ohe__education-num_7": 0.0,
+          "ohe__education-num_8": 0.0,
+          "ohe__education-num_9": 0.0,
+          "ohe__education-num_10": 0.0,
+          "ohe__education-num_11": 0.0,
+          "ohe__education-num_12": 0.0,
+          "ohe__education-num_13": 0.0,
+          "ohe__education-num_14": 0.0,
+          "ohe__education-num_15": 0.0,
+          "ohe__education-num_16": 0.0,
+          "ohe__marital-status_Divorced": 0.0,
+          "ohe__marital-status_Married-AF-spouse": 0.0,
+          "ohe__marital-status_Married-civ-spouse": 0.0,
+          "ohe__marital-status_Married-spouse-absent": 0.0,
+          "ohe__marital-status_Never-married": 0.0,
+          "ohe__marital-status_Separated": 0.0,
+          "ohe__marital-status_Widowed": 0.0,
+          "ohe__occupation_Adm-clerical": 0.0,
+          "ohe__occupation_Armed-Forces": 0.0,
+          "ohe__occupation_Craft-repair": 0.0,
+          "ohe__occupation_Exec-managerial": 0.0,
+          "ohe__occupation_Farming-fishing": 0.0,
+          "ohe__occupation_Handlers-cleaners": 0.0,
+          "ohe__occupation_Machine-op-inspct": 0.0,
+          "ohe__occupation_Other-service": 0.0,
+          "ohe__occupation_Priv-house-serv": 0.0,
+          "ohe__occupation_Prof-specialty": 0.0,
+          "ohe__occupation_Protective-serv": 0.0,
+          "ohe__occupation_Sales": 0.0,
+          "ohe__occupation_Tech-support": 0.0,
+          "ohe__occupation_Transport-moving": 0.0,
+          "ohe__relationship_Husband": 0.0,
+          "ohe__relationship_Not-in-family": 0.0,
+          "ohe__relationship_Other-relative": 0.0,
+          "ohe__relationship_Own-child": 0.0,
+          "ohe__relationship_Unmarried": 0.0,
+          "ohe__relationship_Wife": 0.0,
+          "ohe__race_Amer-Indian-Eskimo": 0.0,
+          "ohe__race_Asian-Pac-Islander": 0.0,
+          "ohe__race_Black": 0.0,
+          "ohe__race_Other": 0.0,
+          "ohe__race_White": 0.0,
+          "ohe__sex_Female": 0.0,
+          "ohe__sex_Male": 0.0,
+          "ohe__native-country_Cambodia": 0.0,
+          "ohe__native-country_Canada": 0.0,
+          "ohe__native-country_China": 0.0,
+          "ohe__native-country_Columbia": 0.0,
+          "ohe__native-country_Cuba": 0.0,
+          "ohe__native-country_Dominican-Republic": 0.0,
+          "ohe__native-country_Ecuador": 0.0,
+          "ohe__native-country_El-Salvador": 0.0,
+          "ohe__native-country_England": 0.0,
+          "ohe__native-country_France": 0.0,
+          "ohe__native-country_Germany": 0.0,
+          "ohe__native-country_Greece": 0.0,
+          "ohe__native-country_Guatemala": 0.0,
+          "ohe__native-country_Haiti": 0.0,
+          "ohe__native-country_Holand-Netherlands": 0.0,
+          "ohe__native-country_Honduras": 0.0,
+          "ohe__native-country_Hong": 0.0,
+          "ohe__native-country_Hungary": 0.0,
+          "ohe__native-country_India": 0.0,
+          "ohe__native-country_Iran": 0.0,
+          "ohe__native-country_Ireland": 0.0,
+          "ohe__native-country_Italy": 0.0,
+          "ohe__native-country_Jamaica": 0.0,
+          "ohe__native-country_Japan": 0.0,
+          "ohe__native-country_Laos": 0.0,
+          "ohe__native-country_Mexico": 0.0,
+          "ohe__native-country_Nicaragua": 0.0,
+          "ohe__native-country_Outlying-US(Guam-USVI-etc)": 0.0,
+          "ohe__native-country_Peru": 0.0,
+          "ohe__native-country_Philippines": 0.0,
+          "ohe__native-country_Poland": 0.0,
+          "ohe__native-country_Portugal": 0.0,
+          "ohe__native-country_Puerto-Rico": 0.0,
+          "ohe__native-country_Scotland": 0.0,
+          "ohe__native-country_South": 0.0,
+          "ohe__native-country_Taiwan": 0.0,
+          "ohe__native-country_Thailand": 0.0,
+          "ohe__native-country_Trinadad&Tobago": 0.0,
+          "ohe__native-country_United-States": 0.0,
+          "ohe__native-country_Vietnam": 0.0,
+          "ohe__native-country_Yugoslavia": 0.0,
+          "remainder__age": -5.133739575258666e-13,
+          "remainder__fnlwgt": -1.6011785437708623e-16,
+          "remainder__capital-gain": 1.5740404162621338e-14,
+          "remainder__capital-loss": -1.1439507195573418e-14,
+          "remainder__hours-per-week": 1.755561931521906e-14
+        },
+        "r2": -670424.1221268156,
+        "n_samples": 500
+      }
+    }
+  ],
+  "final_samples": null
+}

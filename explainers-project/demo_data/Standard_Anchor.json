@@ -1,0 +1,72 @@
+[
+  {
+    "id": 0,
+    "time": 0.6788,
+    "error_rate": 0.93,
+    "type": "Heuristic",
+    "explanation": "relationship = Own-child"
+  },
+  {
+    "id": 1,
+    "time": 6.675,
+    "error_rate": 1.47,
+    "type": "Heuristic",
+    "explanation": "capital-gain > 0.00 AND relationship = Husband AND education-num > 10.00 AND marital-status = Married-civ-spouse AND age > 37.00 AND sex = Male AND occupation = Prof-specialty AND education = Prof-school"
+  },
+  {
+    "id": 2,
+    "time": 0.6745,
+    "error_rate": 3.5,
+    "type": "Heuristic",
+    "explanation": "marital-status = Divorced"
+  },
+  {
+    "id": 3,
+    "time": 1.149,
+    "error_rate": 3.93,
+    "type": "Heuristic",
+    "explanation": "education = Assoc-voc AND hours-per-week <= 40.00"
+  },
+  {
+    "id": 4,
+    "time": 0.8527,
+    "error_rate": 4.3,
+    "type": "Heuristic",
+    "explanation": "marital-status = Separated"
+  },
+  {
+    "id": 5,
+    "time": 2.247,
+    "error_rate": 4.16,
+    "type": "Heuristic",
+    "explanation": "native-country = United-States AND age <= 37.00 AND hours-per-week <= 45.00"
+  },
+  {
+    "id": 6,
+    "time": 0.786,
+    "error_rate": 4.6,
+    "type": "Heuristic",
+    "explanation": "education = HS-grad"
+  },
+  {
+    "id": 7,
+    "time": 10.9413,
+    "error_rate": 12.34,
+    "type": "Heuristic",
+    "explanation": "capital-gain > 0.00 AND relationship = Husband AND marital-status = Married-civ-spouse AND education-num > 10.00 AND sex = Male AND education = Bachelors AND age > 28.00 AND hours-per-week > 40.00 AND race = White AND native-country = United-States AND fnlwgt > 117589.00"
+  },
+  {
+    "id": 8,
+    "time": 0.6533,
+    "error_rate": 1.28,
+    "type": "Heuristic",
+    "explanation": "marital-status = Never-married"
+  },
+  {
+    "id": 9,
+    "time": 0.6021,
+    "error_rate": 4.18,
+    "type": "Heuristic",
+    "explanation": "relationship = Unmarried"
+  }
+]

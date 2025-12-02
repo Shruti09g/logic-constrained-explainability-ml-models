@@ -1,0 +1,282 @@
+[
+  {
+    "id": 0,
+    "time": 0.8811,
+    "error_rate": 11.65,
+    "type": "Heuristic",
+    "explanation": [
+      {
+        "feature": "marital-status=Never-married",
+        "weight": -0.1279
+      },
+      {
+        "feature": "relationship=Own-child",
+        "weight": -0.0869
+      },
+      {
+        "feature": "capital-gain",
+        "weight": 0.0785
+      },
+      {
+        "feature": "sex=Female",
+        "weight": -0.0319
+      },
+      {
+        "feature": "age",
+        "weight": 0.0166
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "time": 0.6968,
+    "error_rate": 10.42,
+    "type": "Heuristic",
+    "explanation": [
+      {
+        "feature": "marital-status=Married-civ-spouse",
+        "weight": 0.1439
+      },
+      {
+        "feature": "relationship=Husband",
+        "weight": 0.1011
+      },
+      {
+        "feature": "capital-gain",
+        "weight": 0.0908
+      },
+      {
+        "feature": "sex=Male",
+        "weight": 0.0404
+      },
+      {
+        "feature": "age",
+        "weight": 0.0172
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "time": 0.8797,
+    "error_rate": 10.77,
+    "type": "Heuristic",
+    "explanation": [
+      {
+        "feature": "capital-gain",
+        "weight": 0.0798
+      },
+      {
+        "feature": "marital-status=Divorced",
+        "weight": -0.051
+      },
+      {
+        "feature": "occupation=Prof-specialty",
+        "weight": 0.0468
+      },
+      {
+        "feature": "education=Bachelors",
+        "weight": 0.0392
+      },
+      {
+        "feature": "age",
+        "weight": 0.0161
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "time": 0.8401,
+    "error_rate": 11.41,
+    "type": "Heuristic",
+    "explanation": [
+      {
+        "feature": "marital-status=Married-civ-spouse",
+        "weight": 0.142
+      },
+      {
+        "feature": "relationship=Husband",
+        "weight": 0.1066
+      },
+      {
+        "feature": "capital-gain",
+        "weight": 0.0795
+      },
+      {
+        "feature": "sex=Male",
+        "weight": 0.0325
+      },
+      {
+        "feature": "age",
+        "weight": 0.0161
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "time": 0.4377,
+    "error_rate": 11.09,
+    "type": "Heuristic",
+    "explanation": [
+      {
+        "feature": "capital-gain",
+        "weight": 0.0798
+      },
+      {
+        "feature": "relationship=Unmarried",
+        "weight": -0.048
+      },
+      {
+        "feature": "sex=Female",
+        "weight": -0.0305
+      },
+      {
+        "feature": "age",
+        "weight": 0.0154
+      },
+      {
+        "feature": "hours-per-week",
+        "weight": 0.0142
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "time": 1.1402,
+    "error_rate": 10.73,
+    "type": "Heuristic",
+    "explanation": [
+      {
+        "feature": "marital-status=Married-civ-spouse",
+        "weight": 0.1495
+      },
+      {
+        "feature": "relationship=Husband",
+        "weight": 0.107
+      },
+      {
+        "feature": "capital-gain",
+        "weight": 0.0778
+      },
+      {
+        "feature": "occupation=Prof-specialty",
+        "weight": 0.0456
+      },
+      {
+        "feature": "age",
+        "weight": 0.0182
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "time": 1.1623,
+    "error_rate": 11.02,
+    "type": "Heuristic",
+    "explanation": [
+      {
+        "feature": "marital-status=Married-civ-spouse",
+        "weight": 0.1396
+      },
+      {
+        "feature": "relationship=Husband",
+        "weight": 0.1064
+      },
+      {
+        "feature": "capital-gain",
+        "weight": 0.0807
+      },
+      {
+        "feature": "sex=Male",
+        "weight": 0.0352
+      },
+      {
+        "feature": "age",
+        "weight": 0.0186
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "time": 0.5911,
+    "error_rate": 11.46,
+    "type": "Heuristic",
+    "explanation": [
+      {
+        "feature": "marital-status=Married-civ-spouse",
+        "weight": 0.1458
+      },
+      {
+        "feature": "relationship=Husband",
+        "weight": 0.1093
+      },
+      {
+        "feature": "capital-gain",
+        "weight": 0.0846
+      },
+      {
+        "feature": "age",
+        "weight": 0.0182
+      },
+      {
+        "feature": "hours-per-week",
+        "weight": 0.0176
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "time": 1.2859,
+    "error_rate": 9.03,
+    "type": "Heuristic",
+    "explanation": [
+      {
+        "feature": "marital-status=Never-married",
+        "weight": -0.1264
+      },
+      {
+        "feature": "relationship=Own-child",
+        "weight": -0.0855
+      },
+      {
+        "feature": "capital-gain",
+        "weight": 0.0801
+      },
+      {
+        "feature": "sex=Male",
+        "weight": 0.0335
+      },
+      {
+        "feature": "age",
+        "weight": 0.0166
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "time": 0.7696,
+    "error_rate": 9.35,
+    "type": "Heuristic",
+    "explanation": [
+      {
+        "feature": "capital-gain",
+        "weight": 0.079
+      },
+      {
+        "feature": "marital-status=Divorced",
+        "weight": -0.0424
+      },
+      {
+        "feature": "occupation=Prof-specialty",
+        "weight": 0.0412
+      },
+      {
+        "feature": "sex=Male",
+        "weight": 0.0302
+      },
+      {
+        "feature": "age",
+        "weight": 0.0159
+      }
+    ]
+  }
+]

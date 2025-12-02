@@ -1,0 +1,33 @@
+{
+  "prediction": 0,
+  "region": {
+    "marital-status": [
+      "eq",
+      "Married-civ-spouse"
+    ],
+    "relationship": [
+      "eq",
+      "Husband"
+    ],
+    "sex": [
+      "eq",
+      "Male"
+    ],
+    "age": [
+      36.50000000000001,
+      1000000000.0
+    ],
+    "capital-gain": [
+      -1000000000.0,
+      5095.5
+    ],
+    "capital-loss": [
+      -1000000000.0,
+      1497.5
+    ],
+    "hours-per-week": [
+      -1000000000.0,
+      40.5
+    ]
+  }
+}

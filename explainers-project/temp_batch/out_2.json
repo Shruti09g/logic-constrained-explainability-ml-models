@@ -1,0 +1,57 @@
+{
+  "prediction": 0,
+  "region": {
+    "education": [
+      "eq",
+      "Bachelors"
+    ],
+    "education-num": [
+      "eq",
+      "13"
+    ],
+    "marital-status": [
+      "eq",
+      "Divorced"
+    ],
+    "occupation": [
+      "eq",
+      "Prof-specialty"
+    ],
+    "relationship": [
+      "eq",
+      "Unmarried"
+    ],
+    "race": [
+      "eq",
+      "Black"
+    ],
+    "sex": [
+      "eq",
+      "Female"
+    ],
+    "native-country": [
+      "eq",
+      "United-States"
+    ],
+    "age": [
+      41.50000000000001,
+      1000000000.0
+    ],
+    "fnlwgt": [
+      99271.00000000001,
+      1000000000.0
+    ],
+    "capital-gain": [
+      -1000000000.0,
+      3120.0
+    ],
+    "capital-loss": [
+      -1000000000.0,
+      106.5
+    ],
+    "hours-per-week": [
+      -1000000000.0,
+      42.5
+    ]
+  }
+}

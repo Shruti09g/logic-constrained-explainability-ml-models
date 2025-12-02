@@ -1,0 +1,57 @@
+{
+  "prediction": 0,
+  "region": {
+    "workclass": [
+      "eq",
+      "Private"
+    ],
+    "education": [
+      "eq",
+      "HS-grad"
+    ],
+    "education-num": [
+      "eq",
+      "9"
+    ],
+    "marital-status": [
+      "eq",
+      "Married-civ-spouse"
+    ],
+    "occupation": [
+      "eq",
+      "Adm-clerical"
+    ],
+    "relationship": [
+      "eq",
+      "Wife"
+    ],
+    "race": [
+      "eq",
+      "White"
+    ],
+    "sex": [
+      "eq",
+      "Female"
+    ],
+    "age": [
+      35.50000000000001,
+      1000000000.0
+    ],
+    "fnlwgt": [
+      74018.00000000001,
+      1000000000.0
+    ],
+    "capital-gain": [
+      -1000000000.0,
+      5095.5
+    ],
+    "capital-loss": [
+      -1000000000.0,
+      1782.5
+    ],
+    "hours-per-week": [
+      -1000000000.0,
+      40.5
+    ]
+  }
+}

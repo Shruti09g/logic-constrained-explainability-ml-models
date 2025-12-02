@@ -1,0 +1,282 @@
+[
+  {
+    "id": 0,
+    "time": 1.0917,
+    "error_rate": 0.0,
+    "type": "Hybrid",
+    "explanation": [
+      {
+        "feature": "ohe__marital-status_Married-civ-spouse",
+        "weight": 0.0705
+      },
+      {
+        "feature": "ohe__relationship_Husband",
+        "weight": 0.0681
+      },
+      {
+        "feature": "ohe__relationship_Wife",
+        "weight": 0.0389
+      },
+      {
+        "feature": "ohe__education_Prof-school",
+        "weight": 0.0381
+      },
+      {
+        "feature": "ohe__occupation_Exec-managerial",
+        "weight": 0.0378
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "time": 1.2129,
+    "error_rate": 0.0,
+    "type": "Hybrid",
+    "explanation": [
+      {
+        "feature": "ohe__marital-status_Never-married",
+        "weight": -0.0799
+      },
+      {
+        "feature": "ohe__relationship_Husband",
+        "weight": 0.0729
+      },
+      {
+        "feature": "ohe__marital-status_Married-civ-spouse",
+        "weight": 0.0655
+      },
+      {
+        "feature": "ohe__education_Prof-school",
+        "weight": 0.0479
+      },
+      {
+        "feature": "ohe__relationship_Own-child",
+        "weight": -0.0413
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "time": 1.2924,
+    "error_rate": 0.0,
+    "type": "Hybrid",
+    "explanation": [
+      {
+        "feature": "ohe__relationship_Husband",
+        "weight": 0.0655
+      },
+      {
+        "feature": "ohe__marital-status_Married-civ-spouse",
+        "weight": 0.0615
+      },
+      {
+        "feature": "ohe__marital-status_Never-married",
+        "weight": -0.0579
+      },
+      {
+        "feature": "ohe__relationship_Wife",
+        "weight": 0.0555
+      },
+      {
+        "feature": "ohe__relationship_Own-child",
+        "weight": -0.0451
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "time": 0.7988,
+    "error_rate": 0.0,
+    "type": "Hybrid",
+    "explanation": [
+      {
+        "feature": "ohe__relationship_Husband",
+        "weight": 0.0788
+      },
+      {
+        "feature": "ohe__marital-status_Married-civ-spouse",
+        "weight": 0.0732
+      },
+      {
+        "feature": "ohe__marital-status_Never-married",
+        "weight": -0.054
+      },
+      {
+        "feature": "ohe__relationship_Own-child",
+        "weight": -0.053
+      },
+      {
+        "feature": "ohe__relationship_Wife",
+        "weight": 0.0488
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "time": 1.198,
+    "error_rate": 0.0,
+    "type": "Hybrid",
+    "explanation": [
+      {
+        "feature": "ohe__relationship_Husband",
+        "weight": 0.0721
+      },
+      {
+        "feature": "ohe__marital-status_Married-civ-spouse",
+        "weight": 0.0667
+      },
+      {
+        "feature": "ohe__marital-status_Never-married",
+        "weight": -0.0626
+      },
+      {
+        "feature": "ohe__relationship_Own-child",
+        "weight": -0.0482
+      },
+      {
+        "feature": "ohe__occupation_Exec-managerial",
+        "weight": 0.0452
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "time": 0.8028,
+    "error_rate": 0.0,
+    "type": "Hybrid",
+    "explanation": [
+      {
+        "feature": "ohe__relationship_Husband",
+        "weight": 0.0647
+      },
+      {
+        "feature": "ohe__marital-status_Married-civ-spouse",
+        "weight": 0.0613
+      },
+      {
+        "feature": "ohe__marital-status_Never-married",
+        "weight": -0.0554
+      },
+      {
+        "feature": "ohe__occupation_Exec-managerial",
+        "weight": 0.0481
+      },
+      {
+        "feature": "ohe__relationship_Wife",
+        "weight": 0.0476
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "time": 0.9601,
+    "error_rate": 0.0,
+    "type": "Hybrid",
+    "explanation": [
+      {
+        "feature": "ohe__relationship_Husband",
+        "weight": 0.0589
+      },
+      {
+        "feature": "ohe__marital-status_Never-married",
+        "weight": -0.0584
+      },
+      {
+        "feature": "ohe__marital-status_Married-civ-spouse",
+        "weight": 0.0578
+      },
+      {
+        "feature": "ohe__education_Prof-school",
+        "weight": 0.0431
+      },
+      {
+        "feature": "ohe__relationship_Wife",
+        "weight": 0.0388
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "time": 1.3285,
+    "error_rate": 0.0,
+    "type": "Hybrid",
+    "explanation": [
+      {
+        "feature": "ohe__marital-status_Married-civ-spouse",
+        "weight": 0.0617
+      },
+      {
+        "feature": "ohe__marital-status_Never-married",
+        "weight": -0.0585
+      },
+      {
+        "feature": "ohe__relationship_Husband",
+        "weight": 0.0584
+      },
+      {
+        "feature": "ohe__occupation_Prof-specialty",
+        "weight": 0.037
+      },
+      {
+        "feature": "ohe__relationship_Not-in-family",
+        "weight": -0.0368
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "time": 1.3142,
+    "error_rate": 0.0,
+    "type": "Hybrid",
+    "explanation": [
+      {
+        "feature": "ohe__relationship_Husband",
+        "weight": 0.0805
+      },
+      {
+        "feature": "ohe__marital-status_Never-married",
+        "weight": -0.0695
+      },
+      {
+        "feature": "ohe__marital-status_Married-civ-spouse",
+        "weight": 0.0688
+      },
+      {
+        "feature": "ohe__relationship_Wife",
+        "weight": 0.0521
+      },
+      {
+        "feature": "ohe__relationship_Own-child",
+        "weight": -0.0516
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "time": 0.833,
+    "error_rate": 0.0,
+    "type": "Hybrid",
+    "explanation": [
+      {
+        "feature": "ohe__relationship_Husband",
+        "weight": 0.0725
+      },
+      {
+        "feature": "ohe__marital-status_Never-married",
+        "weight": -0.0695
+      },
+      {
+        "feature": "ohe__marital-status_Married-civ-spouse",
+        "weight": 0.0664
+      },
+      {
+        "feature": "ohe__relationship_Wife",
+        "weight": 0.0465
+      },
+      {
+        "feature": "ohe__occupation_Exec-managerial",
+        "weight": 0.0465
+      }
+    ]
+  }
+]

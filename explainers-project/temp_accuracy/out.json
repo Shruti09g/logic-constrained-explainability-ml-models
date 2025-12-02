@@ -1,0 +1,49 @@
+{
+  "prediction": 0,
+  "region": {
+    "workclass": [
+      "eq",
+      "Private"
+    ],
+    "marital-status": [
+      "eq",
+      "Divorced"
+    ],
+    "occupation": [
+      "eq",
+      "Prof-specialty"
+    ],
+    "relationship": [
+      "eq",
+      "Unmarried"
+    ],
+    "race": [
+      "eq",
+      "White"
+    ],
+    "sex": [
+      "eq",
+      "Male"
+    ],
+    "age": [
+      41.50000000000001,
+      1000000000.0
+    ],
+    "fnlwgt": [
+      -1000000000.0,
+      99271.0
+    ],
+    "capital-gain": [
+      -1000000000.0,
+      4718.5
+    ],
+    "capital-loss": [
+      -1000000000.0,
+      1820.5
+    ],
+    "hours-per-week": [
+      -1000000000.0,
+      40.5
+    ]
+  }
+}

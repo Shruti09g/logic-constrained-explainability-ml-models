@@ -1,0 +1,11 @@
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.2
+xgboost>=1.7
+joblib
+shap>=0.41
+lime>=0.2.0
+alibi==0.9.6            # anchor in alibi: adjust version if needed
+pysat                   # only if you use PySAT for custom SAT-guided steps
+pyyaml
+tqdm

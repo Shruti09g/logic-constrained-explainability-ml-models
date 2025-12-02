@@ -1,0 +1,162 @@
+[
+  {
+    "id": 0,
+    "time": 0.0506,
+    "error_rate": 15.4,
+    "type": "Heuristic",
+    "explanation": [
+      {
+        "feature": "ohe__workclass_Local-gov",
+        "weight": 0.0
+      },
+      {
+        "feature": "ohe__workclass_Federal-gov",
+        "weight": 0.0
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "time": 0.049,
+    "error_rate": 13.01,
+    "type": "Heuristic",
+    "explanation": [
+      {
+        "feature": "ohe__workclass_Local-gov",
+        "weight": 0.0
+      },
+      {
+        "feature": "ohe__workclass_Federal-gov",
+        "weight": 0.0
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "time": 0.0711,
+    "error_rate": 12.98,
+    "type": "Heuristic",
+    "explanation": [
+      {
+        "feature": "ohe__workclass_Local-gov",
+        "weight": 0.0
+      },
+      {
+        "feature": "ohe__workclass_Federal-gov",
+        "weight": 0.0
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "time": 0.0516,
+    "error_rate": 16.92,
+    "type": "Heuristic",
+    "explanation": [
+      {
+        "feature": "ohe__workclass_Local-gov",
+        "weight": 0.0
+      },
+      {
+        "feature": "ohe__workclass_Federal-gov",
+        "weight": 0.0
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "time": 0.0516,
+    "error_rate": 10.36,
+    "type": "Heuristic",
+    "explanation": [
+      {
+        "feature": "ohe__workclass_Local-gov",
+        "weight": 0.0
+      },
+      {
+        "feature": "ohe__workclass_Federal-gov",
+        "weight": 0.0
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "time": 0.0506,
+    "error_rate": 10.54,
+    "type": "Heuristic",
+    "explanation": [
+      {
+        "feature": "ohe__workclass_Local-gov",
+        "weight": 0.0
+      },
+      {
+        "feature": "ohe__workclass_Federal-gov",
+        "weight": 0.0
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "time": 0.0571,
+    "error_rate": 19.15,
+    "type": "Heuristic",
+    "explanation": [
+      {
+        "feature": "ohe__workclass_Local-gov",
+        "weight": 0.0
+      },
+      {
+        "feature": "ohe__workclass_Federal-gov",
+        "weight": 0.0
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "time": 0.0473,
+    "error_rate": 18.35,
+    "type": "Heuristic",
+    "explanation": [
+      {
+        "feature": "ohe__workclass_Local-gov",
+        "weight": 0.0
+      },
+      {
+        "feature": "ohe__workclass_Federal-gov",
+        "weight": 0.0
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "time": 0.0564,
+    "error_rate": 14.03,
+    "type": "Heuristic",
+    "explanation": [
+      {
+        "feature": "ohe__workclass_Local-gov",
+        "weight": 0.0
+      },
+      {
+        "feature": "ohe__workclass_Federal-gov",
+        "weight": 0.0
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "time": 0.0527,
+    "error_rate": 14.97,
+    "type": "Heuristic",
+    "explanation": [
+      {
+        "feature": "ohe__workclass_Local-gov",
+        "weight": 0.0
+      },
+      {
+        "feature": "ohe__workclass_Federal-gov",
+        "weight": 0.0
+      }
+    ]
+  }
+]

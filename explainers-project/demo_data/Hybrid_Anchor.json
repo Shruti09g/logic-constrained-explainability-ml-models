@@ -1,0 +1,72 @@
+[
+  {
+    "id": 0,
+    "time": 1.4738,
+    "error_rate": 0.0,
+    "type": "Hybrid",
+    "explanation": "workclass=Private AND education=Some-college AND marital-status=Never-married AND occupation=Adm-clerical AND relationship=Own-child AND race=White AND sex=Female AND 25.50 <= age <= 27.50 AND 197942.50 <= fnlwgt <= 1000000000.00 AND -1000000000.00 <= capital-gain <= 4601.50 AND -1000000000.00 <= capital-loss <= 1534.00 AND 36.50 <= hours-per-week <= 41.50"
+  },
+  {
+    "id": 1,
+    "time": 1.6374,
+    "error_rate": 0.0,
+    "type": "Hybrid",
+    "explanation": "education=Prof-school AND education-num=15 AND marital-status=Married-civ-spouse AND occupation=Prof-specialty AND relationship=Husband AND race=White AND sex=Male AND 35.50 <= age <= 62.50 AND 26697.00 <= fnlwgt <= 839333.50 AND 7073.50 <= capital-gain <= 1000000000.00 AND -1000000000.00 <= capital-loss <= 1497.50 AND 44.50 <= hours-per-week <= 1000000000.00"
+  },
+  {
+    "id": 2,
+    "time": 1.7447,
+    "error_rate": 0.0,
+    "type": "Hybrid",
+    "explanation": "education=Bachelors AND education-num=13 AND marital-status=Divorced AND occupation=Prof-specialty AND relationship=Unmarried AND race=Black AND sex=Female AND native-country=United-States AND 41.50 <= age <= 1000000000.00 AND 99271.00 <= fnlwgt <= 1000000000.00 AND -1000000000.00 <= capital-gain <= 3120.00 AND -1000000000.00 <= capital-loss <= 106.50 AND -1000000000.00 <= hours-per-week <= 42.50"
+  },
+  {
+    "id": 3,
+    "time": 1.0783,
+    "error_rate": 0.0,
+    "type": "Hybrid",
+    "explanation": "marital-status=Married-civ-spouse AND relationship=Husband AND sex=Male AND 36.50 <= age <= 1000000000.00 AND -1000000000.00 <= capital-gain <= 5095.50 AND -1000000000.00 <= capital-loss <= 1497.50 AND -1000000000.00 <= hours-per-week <= 40.50"
+  },
+  {
+    "id": 4,
+    "time": 1.6172,
+    "error_rate": 0.0,
+    "type": "Hybrid",
+    "explanation": "workclass=Private AND education=Some-college AND education-num=10 AND marital-status=Separated AND occupation=Exec-managerial AND relationship=Unmarried AND race=Black AND sex=Female AND 31.50 <= age <= 33.50 AND 38451.00 <= fnlwgt <= 650569.00 AND -1000000000.00 <= capital-gain <= 5095.50 AND -1000000000.00 <= capital-loss <= 1814.00 AND 35.50 <= hours-per-week <= 40.50"
+  },
+  {
+    "id": 5,
+    "time": 1.0838,
+    "error_rate": 0.0,
+    "type": "Hybrid",
+    "explanation": "workclass=Private AND marital-status=Married-civ-spouse AND occupation=Prof-specialty AND relationship=Husband AND sex=Male AND 31.50 <= age <= 33.50 AND -1000000000.00 <= fnlwgt <= 43647.00 AND -1000000000.00 <= capital-gain <= 5095.50 AND -1000000000.00 <= capital-loss <= 1782.50 AND 44.50 <= hours-per-week <= 1000000000.00"
+  },
+  {
+    "id": 6,
+    "time": 1.2962,
+    "error_rate": 0.0,
+    "type": "Hybrid",
+    "explanation": "education=HS-grad AND education-num=9 AND marital-status=Married-civ-spouse AND relationship=Husband AND sex=Male AND 27.50 <= age <= 28.50 AND -1000000000.00 <= fnlwgt <= 349256.50 AND -1000000000.00 <= capital-gain <= 4225.00 AND -1000000000.00 <= capital-loss <= 1497.50 AND 39.50 <= hours-per-week <= 40.50"
+  },
+  {
+    "id": 7,
+    "time": 1.7935,
+    "error_rate": 0.0,
+    "type": "Hybrid",
+    "explanation": "workclass=Self-emp-not-inc AND education=Bachelors AND education-num=13 AND marital-status=Married-civ-spouse AND relationship=Husband AND sex=Male AND 35.50 <= age <= 62.50 AND 156105.00 <= fnlwgt <= 446885.50 AND 7073.50 <= capital-gain <= 9976.00 AND -1000000000.00 <= capital-loss <= 1782.50 AND 49.00 <= hours-per-week <= 1000000000.00"
+  },
+  {
+    "id": 8,
+    "time": 1.7742,
+    "error_rate": 0.0,
+    "type": "Hybrid",
+    "explanation": "workclass=Private AND education=HS-grad AND education-num=9 AND marital-status=Never-married AND occupation=Other-service AND relationship=Own-child AND race=White AND sex=Male AND native-country=United-States AND -1000000000.00 <= age <= 24.50 AND 32257.50 <= fnlwgt <= 197942.50 AND -1000000000.00 <= capital-gain <= 4601.50 AND -1000000000.00 <= capital-loss <= 1534.00 AND -1000000000.00 <= hours-per-week <= 25.50"
+  },
+  {
+    "id": 9,
+    "time": 1.1245,
+    "error_rate": 0.0,
+    "type": "Hybrid",
+    "explanation": "workclass=Private AND marital-status=Divorced AND occupation=Prof-specialty AND relationship=Unmarried AND race=White AND sex=Male AND 41.50 <= age <= 1000000000.00 AND -1000000000.00 <= fnlwgt <= 99271.00 AND -1000000000.00 <= capital-gain <= 4718.50 AND -1000000000.00 <= capital-loss <= 1820.50 AND -1000000000.00 <= hours-per-week <= 40.50"
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "prediction": 0,
+  "region": {
+    "workclass": [
+      "eq",
+      "Private"
+    ],
+    "education": [
+      "eq",
+      "HS-grad"
+    ],
+    "education-num": [
+      "eq",
+      "9"
+    ],
+    "marital-status": [
+      "eq",
+      "Never-married"
+    ],
+    "occupation": [
+      "eq",
+      "Handlers-cleaners"
+    ],
+    "relationship": [
+      "eq",
+      "Own-child"
+    ],
+    "race": [
+      "eq",
+      "White"
+    ],
+    "sex": [
+      "eq",
+      "Male"
+    ],
+    "native-country": [
+      "eq",
+      "United-States"
+    ],
+    "age": [
+      -1000000000.0,
+      24.5
+    ],
+    "fnlwgt": [
+      32257.500000000004,
+      197942.5
+    ],
+    "capital-gain": [
+      -1000000000.0,
+      4601.5
+    ],
+    "capital-loss": [
+      -1000000000.0,
+      1534.0
+    ],
+    "hours-per-week": [
+      -1000000000.0,
+      25.5
+    ]
+  }
+}
